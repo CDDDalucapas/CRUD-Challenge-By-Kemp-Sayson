@@ -1,0 +1,61 @@
+
+            .Backimage{
+                height: 100%;
+                background-image: url(image/queen.jpeg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                filter: blur(5px);
+                -webkit-filter: blur(4px);    
+            }
+            .centerbox{
+                height: 360px;
+                width: 420px;
+                border-radius: 5px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+                background-color: rgb(90, 84, 84, 0.7);
+                border:  solid 2px #2e2927;
+            }
+
+            #content{
+                padding: 20 30;
+                
+            }
+            #dotapic{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            h4{
+                color: #f4f3f2;
+                font-family: sans-serif;
+                margin-top: 30;
+                margin-bottom: 5;
+            }
+
+            .inputs{
+                width: 100%;
+                height: 35;
+                opacity: 60%;
+                background-color: #2e2927;
+                border-radius: 5px;
+                border:  1px solid  rgb(49, 46, 46);
+
+            }
+
+            #submit{
+                width: 100%;
+                height: 35;
+                background-color: rgb(65, 165, 108);
+                border-radius: 5px;
+                margin-top: 35;
+                opacity: 100%;
+                color: white;
+                border: 0;
+            }
