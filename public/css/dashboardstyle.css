@@ -28,7 +28,7 @@
             border-radius: 5px;
         }
         #MainContent{
-            padding-top: 60;
+            padding-top: 20;
             height: auto;
             width: 60%;
             margin: auto;
@@ -50,6 +50,11 @@
             color: white;
             border-radius: 3px;
             margin-left: 7;
+        }
+
+        .display-block{
+            display: block;
+            margin-bottom: 20px;
         }
         .HeroCont{
             width: 18.2%;
