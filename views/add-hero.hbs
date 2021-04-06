@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <title>Add Hero</title>
+    </head>
+    <body>
+        <div id="MainContent">
+            <span class="display-block"><button id="AddHero">Add Hero</button></span>
+            <button id="AddHero">Search</button>
+            <div class="hero-container">
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+                <div class="HeroCont">
+                    <img class="HeroPic" src="/image/bristle.jpg">
+                    <p>Britsleback</p>
+                    <img class="delete" src="/image/Close.png" width="20">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+    const heroes = [
+        {
+            imagelink:"https://external-preview.redd.it/DZRHg1I72mCNKePOqfqjkBW-7ugWeHrLHvQoerMop48.png?auto=webp&s=2059aa00df1ce0286f68ef54e573ffae680c7453",
+            name:'dagger'
+        },
+        {
+            imagelink:"https://external-preview.redd.it/DZRHg1I72mCNKePOqfqjkBW-7ugWeHrLHvQoerMop48.png?auto=webp&s=2059aa00df1ce0286f68ef54e573ffae680c7453",
+            name:'dagger1'
+        },
+        {
+            imagelink:"https://external-preview.redd.it/DZRHg1I72mCNKePOqfqjkBW-7ugWeHrLHvQoerMop48.png?auto=webp&s=2059aa00df1ce0286f68ef54e573ffae680c7453",
+            name:'dagger2'
+        }  
+    ];    
+    const heroContainer = document.querySelector('.hero-container');
+    heroes.forEach((item, index)=>{
+        console.log(item);
+        console.log(index);
+        console.log(item.name);
+    });
+    const heroItem = document.createElement("div");
+    heroItem.innerText = "StrongBristle";
+    console.dir(heroItem); 
+    heroContainer.appendChild(heroItem);
+    </script>
+</html>
