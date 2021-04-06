@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
 
     <title>The Login</title>
 </head>
@@ -14,9 +14,6 @@
                     <input class="inputs" id="email" type="email" name="email">
                     <h4>Password</h4>
                     <input class="inputs" id="password" type="password" name="password">
-                    {{#if message}}
-                        <h4><span class="alert">{{message}}</span></h4>
-                    {{/if}}
                     <button type="submit" class="buttons">Login</button>
                 </form>
                 <button onclick="document.location='/register'" class="buttons darker-green">Register</button>
