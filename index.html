@@ -9,14 +9,16 @@
         <div class="centerbox">
             <div id="content">
                 <img id="dotapic" src="public/image/dotalogo.png" alt="Cannot view" width="200">
-                <form action="/auth/index" method="POST">
+                <form >
+                    <!-- Removed action="/auth/index" method="POST" for viewing purposes -->
                     <h4>Email</h4>
                     <input class="inputs" id="email" type="email" name="email">
                     <h4>Password</h4>
                     <input class="inputs" id="password" type="password" name="password">
-                    <button type="submit" class="buttons">Login</button>
+                    
                 </form>
-                <button onclick="document.location='/register'" class="buttons darker-green">Register</button>
+                <button onclick="location.href='dashboard.html'"class="buttons">Login</button>
+                <button onclick="location.href='register.html'" class="buttons darker-green">Register</button>
             </div>
         </div>
     </body>
