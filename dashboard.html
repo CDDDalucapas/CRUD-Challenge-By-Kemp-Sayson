@@ -1,7 +1,95 @@
 <html lang="en">
     <head>
         <title>DOTA CRUD</title>
-        <link rel="stylesheet" type="text/css" href="public/css/dashboardstyle.css">
+        <style type="text/css">
+        
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #525252;
+            font-family: sans-serif;
+        }
+
+        #topbar{
+            background-color: #262626;
+        }
+        #topbarcontent{
+            width: 60%;
+            margin: auto;
+            padding: 8;
+            display: flex;
+            justify-content: space-between;
+        }
+        #logout{
+            background-color: #629467;
+            color: white;
+            border: 0;
+            height: 35;
+            width: 80;
+            border-radius: 5px;
+        }
+        #MainContent{
+            padding-top: 20;
+            height: auto;
+            width: 60%;
+            margin: auto;
+        }
+        #search{
+            background-color: #3c3c3c;
+            border: 0;
+            border-radius: 3px;
+            width: 90%;
+            height: 35;
+            padding-left: 20;
+            margin-bottom: 25;
+        }
+        #AddHero{
+            background-color: #629467;
+            height: 35px;
+            width: 100px;
+            border: 0;
+            color: white;
+            border-radius: 3px;
+            margin-left: 7;
+        }
+
+        .display-block{
+            display: block;
+            margin-bottom: 20px;
+        }
+        .HeroCont{
+            width: 18.2%;
+            height: 240px;
+            background-color: #262626;
+            margin-right: 25px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+        .HeroCont:nth-child(5n){
+            margin-right: 0;
+        }
+        .HeroPic{
+            padding: 10 10 0 10;
+            width: 100%;
+        }
+        p{
+            color: white;
+            text-align: center;
+        }
+        .delete{
+            position: absolute;
+            right: -5px;
+            top: -5px;
+        }
+        .hero-container{
+            display: flex;
+            height: 500px;
+            flex-wrap: wrap;
+        }
+        </style>
     </head>
 
     <body>
