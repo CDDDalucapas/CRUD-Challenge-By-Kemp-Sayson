@@ -1,6 +1,6 @@
 .Backimage{
     height: 100%;
-    background-image: url(/public/image/queen.jpeg);
+    background-image: url('/public/image/queen.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
