@@ -71,7 +71,7 @@ h4{
 }
 
 .reg-background{
-    background-image: url(/image/reg-background.jpg);
+    background-image: url(../image/reg-background.jpg);
 }
 
 input, select, textarea{
